@@ -1,0 +1,11 @@
+| Array           | doublerAppend Time | doublerInsert Time |
+|-----------------|--------------------|--------------------|
+| tinyArray       | 59.625 μs          | 20.333 μs          |
+| smallArray      | 64 μs              | 27.875 μs          |
+| mediumArray     | 98.084 μs          | 138.417 μs         |
+| largeArray      | 429.417 μs         | 6.658208ms         |
+| extraLargeArray | 2.0245 ms          | 768.121 ms         |
+
+
+
+
