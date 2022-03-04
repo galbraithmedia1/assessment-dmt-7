@@ -9,3 +9,7 @@
 
 
 
+1: As the doublerInsert goes up in the size of the array, the time exponentially grows. The doublerAppend array does not go up at the same exponential rate. 
+
+2: The doublerInsert does not scale very well beacuse as you add more to the array, you will have to shift the entire array which in turn slows it down. The doublerAppend scales much better, it seems to scale proportionate to the number of addons to the array.
+3: The doublerAppend array scales much better because it is only adding to the end of the array instead of the beginning which shift the who array. 
